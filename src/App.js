@@ -1,8 +1,10 @@
-import React from "react";
-function App() {
+import FetchAPI from "./components/fetchData";
+const App=()=>{
   return(
-    <h1>Hello</h1>
-  );
+    <div>
+      <FetchAPI></FetchAPI>
+    </div>
+  )
 }
 
 export default App;
