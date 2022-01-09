@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body{
+    background-color: rgb(35, 36, 36);
+    border: 1px solid black;
+}
+
+div.top{
+    color: aliceblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.mid {
+    color: aliceblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid input {
+    height: 30px;
+    width: 380px;
+    border-radius: 50px;
+    border: 2px solid rgb(160, 161, 161);
+    background-color: rgb(35, 36, 36);
+    padding: 0 20px;
+    color: aliceblue;
+    outline-color: aliceblue;
+}
+
+.main-frame {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.card::-webkit-scrollbar{
+    display: none;
+}
+.card {
+    flex-wrap: wrap;
+    scrollbar-width: none;
+    overflow: scroll;
+    text-align: justify;
+    padding: 10px;
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid rgb(93, 93, 93);
+    background-color: rgb(54, 54, 54);
+}
+
+.title{
+    padding-bottom: 8px;
+    font-size: 17px;
+    color: aliceblue;
+}
+.desc{
+    padding-bottom: 8px;
+    font-family: 'Nunito';
+    font-size: 12px;
+    color: rgba(240, 248, 255, 0.849);
+}
+.link{
+    font-family: 'Nunito';
+    font-size: xx-small;
+}
+.link a{
+    color: rgba(240, 248, 255, 0.637);
+    text-decoration: none;
+}

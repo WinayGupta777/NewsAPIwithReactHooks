@@ -7,7 +7,7 @@ const FetchAPI=()=>{
     const [url,setUrl]=useState("");
     const fetch=()=>{
         let name="spiderman";
-        axios.get("https://newsapi.org/v2/everything?q=" + name+  "&apiKey=e95cb407d5d84bbb865d014c4b251e7a")
+        axios.get("https://newsapi.org/v2/everything?q=" + name+  "&apiKey=*****************************")
         .then(r=>{
             console.log(r.data.totalResults);
             console.log(r.data.status);
